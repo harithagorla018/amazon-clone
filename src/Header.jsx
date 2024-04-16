@@ -44,7 +44,7 @@ function Header() {
             <span className="header_num">{cart?.length}</span>
             <div className="cartbox">
               <ShoppingCartOutlinedIcon className="header_cartIcon" />
-              <span className="header_cart">Cart</span>
+              {/* <span className="header_cart">Cart</span> */}
             </div>
           </Link>
         </div>
